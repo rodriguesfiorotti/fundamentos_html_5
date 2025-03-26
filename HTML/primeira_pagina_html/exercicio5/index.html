@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Exercicio 5: Formulário de Inscrição</title>
+    </head>
+    <body>
+        <h1>Formulário de Inscrição</h1>
+
+        <form>
+            <div>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required>
+                <br><br>
+            </div>
+                
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="whatsapp">WhatsApp:</label><br>
+                <input type="tel" id="whatsapp" name="whatsapp" required>
+                <br><br>
+            </div>
+
+            <div>
+                <label>Área de atuação:</label><br>
+                <input type="radio" id="desenvolvimento" name="areaAtuacao" value="desenvolvimento">
+                <label for="desenvolvimento">Desenvolvimento</label>
+                <input type="radio" id="QA" name="areaAtuacao" value="QA">
+                <label for="QA">Quality Assurance (QA)</label>
+                <input type="radio" id="analiseDeDados" name="areaAtuacao" value="analiseDeDados">
+                <label for="analiseDeDados">Análise de Dados</label>
+                <input type="radio" id="infraestrutura" name="areaAtuacao" value="infraestrutura">
+                <label for="infraestrutura">Infraestrutura</label>
+                <br><br>
+            </div>
+
+            <div>
+                <label for="observações">Observações:</label><br>
+                <textarea name="observações" id="observações"></textarea>
+                <br><br>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="receberEmails" name="receberEmails" value="true">
+                <label for="receberEmails">Desejo receber novidades e ofertas por email.</label>
+                <br>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
